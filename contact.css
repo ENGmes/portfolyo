@@ -1,0 +1,58 @@
+.iletisim{
+
+
+    background-color:#06101c;
+
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 25px;
+
+}
+
+.iletisim-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+
+.iletisim-social a {
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 5px solid #F8F8F8;
+    border-radius: 50%;
+
+    color: #F8F8F8;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    margin-top: 50px;
+
+    transition: 0.5s ease;
+}
+
+.iletisim-social a:hover {
+    color: #F77F00;
+    border-color: #F77F00;
+    transform: translateY(-10px);
+}
+
+.iletisim-title {
+    color: #F77F00;
+
+    margin: 25px 0 0 50px;
+    letter-spacing: 5px;
+}

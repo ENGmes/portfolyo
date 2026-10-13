@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+html, body{
+	
+	height: 100%;
+	margin: 0;
+	
+	background-color: #06101c;
+	color: #F8F8F8;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+header {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    padding-left: 25px;
+
+    background-color: #06101c;
+
+
+
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo {
+    font-family: "Press Start 2P", monospace;
+    font-size: 200%;
+	transition: 0.6s;
+
+    text-decoration: none;
+
+    color: #F8F8F8;
+}
+
+.logo:hover {
+	color: #F77F00;
+	transition: 0.4s;
+
+    transform: translateX(5px) translateY(-5px);
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: auto;
+    max-width: 700px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 0.5px solid rgba(255,255,255,0.8);
+    border-radius: 30px;
+
+    z-index: 10;
+}
+
+.hamburger {
+    
+    display: none;
+
+    background: none;
+    border: none;
+    color: white;
+
+    font-size: 30px;
+    cursor: pointer;
+
+    margin-left: auto;
+}
+
+.madde{
+    height: 40px;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+	
+	color: aliceblue;
+	text-decoration: none;
+	
+	transition: 0.3s;
+
+	margin-left: 8px;
+	margin-right: 8px;
+	
+}
+
+.madde:hover{
+	
+	background-color: #F77F00;
+	transition: 0.3s;
+	
+}
+
+.resume{
+	
+	height: 10%;
+	width: 20%;
+	
+	border: 1px solid #F77F00;;
+	
+	border-radius: 40px;
+	
+	position: absolute;
+	
+	left: 0;
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	color: rgb(226, 242, 255);
+	
+	transition: 0.3s ease;
+	
+	font-size: 20px;
+	text-decoration: none;
+
+	padding-bottom: 3px;
+
+    z-index: 10;
+		
+}
+
+.resume:hover{
+	
+	color: #ffffff;
+	
+	background-color: #F77F00;
+	
+	transition: 0.5s;
+	
+	transform: scale(1.07);
+	
+	
+}
+
+.hero{
+    width: 100%;
+    height: 105vh;;
+
+    padding-left: 4%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+
+    background-size: 50px 50px;
+}
+
+.hero-text{
+    width:50%;
+    transform:translateY(-200px);
+}
+
+.hello{
+    color: #F77F00;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+
+.hero-text h1{
+    font-size: 64px;
+    margin: 15px 0;
+}
+
+
+.hero-text h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+
+.description{
+    max-width: 550px;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: #9CA3AF;
+}
+
+.hero-image{
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+.hero-image img{
+    width: 450px;
+
+    display: block;
+
+    position: relative;
+    z-index: 1;
+}
+
+.hero-image::before {
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    background: #F77F00;
+
+    opacity: 0.25;
+
+    filter: blur(100px);
+
+    border-radius: 30%;
+
+    right: 5%;
+    top: 25%;
+
+    z-index: -1;
+}
+
+
+
+.language-switcher {
+    position: absolute;
+    right: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    white-space: nowrap;
+
+    border: 1px solid rgba(255,255,255,0.8);
+
+    padding: 10px;
+
+    border-radius: 40px;
+}
+
+.language-btn {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+
+.language-btn:hover {
+    color: #F77F00;
+}
+
+.language-btn.active {
+    color: #F77F00;
+}
+
+.language-switcher span {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+

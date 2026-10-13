@@ -1,0 +1,334 @@
+@media (max-width : 768px ){
+
+    
+    header {
+        height: 10%;
+        padding: 0 3%;
+    }
+
+    .logo {
+        font-size: 150%;
+    }
+
+    .menu {
+        display: none;
+
+        position: absolute;
+
+        top: 100%;
+        left: -10px;
+
+        transform: none;
+
+        width: 100%;
+        max-width: none;
+
+        height: auto;
+
+        flex-direction: column;
+
+        gap: 5px;
+
+        border: none;
+        border-radius: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);;
+
+        background-color: #06101C;
+
+        z-index: 10;
+
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .madde {
+        width: 80%;
+        height: 45px;
+        margin: 0;
+        padding: 0;
+
+        border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .hamburger {
+    display: block;
+    position: absolute;
+
+    right: 40px;
+
+    z-index: 20;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+   .hero {
+        width: 100%;
+        height: auto;
+
+        flex-direction: column;
+        align-items: center;
+
+        padding: 70px 5%;
+        box-sizing: border-box;
+    }
+
+    .hero-text {
+        width: 100%;
+        transform: none;
+    }
+    
+    .hello{
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: -10px;
+    }
+
+    .hero-text h1 {
+    font-size: 30px;
+
+    margin-bottom: -10px;
+
+    }   
+
+    .hero-text h2 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .description {
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+
+    .hero-image {
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .skills-title {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+
+    .skill i {
+        width: 35px;
+        height: 35px;
+
+        font-size: 35px;
+    }
+
+    .skill span {
+        width: 90px;
+        text-align: center;
+        font-size: 10px;
+        line-height: 1.1;
+    }
+
+    .skills-track {
+        gap: 5px;
+        animation-duration: 45s;
+    }
+
+    .skills {
+        padding: 15px 3%;
+        min-height: 110px;
+        box-sizing: border-box;
+    }
+
+    .footer {
+        padding: 40px 5% 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-text {
+        max-width: 300px;
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 15px;
+    }   
+
+    .footer-links a {
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+        padding-top: 15px;
+    }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
+
+    .about {
+        padding: 60px 5%;
+    }
+
+    .about-title {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text h2 {
+        font-size: 32px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .about-info {
+        width: 100%;
+        transform: none;
+    }
+
+
+    .projects {
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    .projects-title {
+        margin-left: 10px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .projects-card-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .projects-card {
+        width: 100%;
+        min-height: 220px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .projects-card h2 {
+        min-height: auto;
+        font-size: 20px;
+    }
+
+    .projects-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    .iletisim {
+        width: 100%;
+        min-height: 250px;
+
+        box-sizing: border-box;
+
+        padding: 30px 5%;
+    }
+
+    .iletisim-title {
+        margin: 20px 0 30px 10px;
+
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .iletisim-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 25px;
+
+        flex-wrap: wrap;
+    }
+
+    .iletisim-social a {
+        width: 60px;
+        height: 60px;
+
+        margin-top: 20px;
+
+        border: 3px solid #F8F8F8;
+        border-radius: 50%;
+
+        font-size: 15px;
+    }
+
+    .resume {
+        width: 65px;
+        height: 35px;
+        left: 20px;
+        font-size: 14px;
+
+        z-index: 0;
+    }
+
+
+    .menu-overlay {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.65);
+
+    z-index: 5;
+    }   
+
+    .menu-overlay.active {
+    display: block;
+    }
+
+    .language-switcher {
+    position: absolute;
+    right: 100px;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 4px;;
+
+    white-space: nowrap;
+    }
+
+.language-btn {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    padding: 6px 8px;
+    cursor: pointer;
+    }
+
+}
